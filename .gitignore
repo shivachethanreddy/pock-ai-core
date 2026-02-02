@@ -1,13 +1,10 @@
-# Models
-*.gguf
-
-# Build
+# Build artifacts
+build-android/
 build/
-out/
-
-# Android
-.gradle/
-.idea/
-
-# OS
-.DS_Store
+*.o
+*.a
+*.so
+*.log
+CMakeCache.txt
+CMakeFiles/
+.ninja_*
