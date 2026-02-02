@@ -1,0 +1,13 @@
+# Models
+*.gguf
+
+# Build
+build/
+out/
+
+# Android
+.gradle/
+.idea/
+
+# OS
+.DS_Store
