@@ -1,10 +1,15 @@
-# Build artifacts
-build-android/
-build/
-*.o
-*.a
-*.so
-*.log
+# Build directories
+/build-android/
+/build-host/
+
+# CMake / Ninja
 CMakeCache.txt
 CMakeFiles/
+*.ninja
 .ninja_*
+compile_commands.json
+
+# Binaries
+*.exe
+*.so
+*.a
